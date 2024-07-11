@@ -313,7 +313,7 @@ automatically, browse to %s." user-code verification-uri))
                                                (error "language-server.js not found"))
                                             ,@copilot-lsp-langserver-command-args)))
   :activation-fn #'copilot-lsp--client-active-for-mode-p
-  :multi-root nil
+  :multi-root t
   :priority -2
   :add-on? t
   :completion-in-comments? t
