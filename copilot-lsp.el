@@ -1,4 +1,14 @@
-;;; copilot-lsp --- lsp-mode client  copilot-lsp  -*- lexical-binding: t -*-
+;;; copilot-lsp.el --- lsp-mode client for copilot-lsp  -*- lexical-binding: t -*-
+
+;; Author: Rodrigo Virote Kassick <kassick@gmail.com>
+;; Version: 0.1
+;; Package-Requires: (lsp-mode secrets s compile dash cl-lib request company)
+;; Keywords: lsp-mode, generative-ai, code-assistant
+;; URL: https://github.com/kassick/copilot-lsp.el
+
+;; Commentary:
+
+;; LSP client for copilot-lsp -- https://gitlab.com/gitlab-org/editor-extensions/copilot-lsp
 
 ;; Copyright (C) 2024 Rodrigo Virote Kassick
 
@@ -17,15 +27,6 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-;; Author: Rodrigo Virote Kassick <kassick@gmail.com>
-;; Version: 0.1
-;; Package-Requires: (lsp-mode secrets s compile dash cl-lib request company)
-;; Keywords: lsp-mode, generative-ai, code-assistant
-;; URL: https://github.com/kassick/copilot-lsp.el
-
-;; Commentary:
-
-;; LSP client for copilot-lsp -- https://gitlab.com/gitlab-org/editor-extensions/copilot-lsp
 
 ;; Code:
 
